@@ -1,0 +1,42 @@
+.details {
+    display: flex;
+
+    .poster {
+      width: 450px;
+      min-height: 500px; 
+      border: solid 1px;
+    }
+
+    .summary {
+      padding: 8px;
+      font-size: 18px;
+    }
+}
+
+.cast-conatiner {
+    display: flex;
+    flex-wrap: wrap;
+
+    .cast {
+        display: flex;
+        width: 45%;
+        margin: 5px;
+
+        > img {
+            margin-right: 10px;
+        }
+
+        .name-conatiner {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+
+            .person {
+                font-size: 18px;
+            }
+            .character {
+                font-size: 14px;
+            }
+        }
+    }
+}
